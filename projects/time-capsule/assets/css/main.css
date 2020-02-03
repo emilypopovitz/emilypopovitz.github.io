@@ -1,17 +1,23 @@
 body{
-	background-color: green;
+	background-color: white;
 }
-
-
-
-
-
 
 img {
-  width: 100%;
+  width: 20%;
+	left:40%;
+	top:20%;
 }
+
 
 .container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.top-left {
+  position: absolute;
+  top: 9px;
+  left: 500px;
+  font-family: Helvetica;
+  color: navy;
 }

@@ -20,13 +20,13 @@ body {
 }
 
 .table {
-    width: 30vw;
-    height: 40vw;
-  background: grey;
-  margin: 2.5vw auto;
-  position: relative;
-      top: 10vw;
-    left: 0vw;
+    width: 32vw;
+    height: 19vw;
+    transform: skew(-310deg);
+    background: #717171;
+    position: absolute;
+    top: 30vw;
+    left: 29vw;
 }
 .camera {
     width: 12vw;
@@ -75,4 +75,143 @@ body {
     top: 28vw;
     left: 49vw;
 }
-/* Your CSS goes here */
+
+.lens {
+    width: 5vw;
+    height: 5vw;
+    background: #B8BAB8;
+    border-radius: 50%;
+    position: absolute;
+    top: 40vw;
+    left: 47.5vw;
+}
+
+.viewfinder {
+    width: 3vw;
+    height: 1vw;
+    background: white;
+    position: absolute;
+    top: 38vw;
+    left: 52vw;
+}
+
+.stem2 {
+  width: .5vw;
+    height: 4vw;
+    background: green;
+    position: absolute;
+    top: 28.1vw;
+    left: 50vw;
+    transform:rotate(23deg);
+}
+
+.stem3 {
+  width: .5vw;
+    height: 4vw;
+    background: green;
+    position: absolute;
+    top: 28.8vw;
+    left: 51.6vw;
+    transform: rotate(22deg);
+}
+
+.flower {
+           width: 2vw;
+    height: 2vw;
+    background: pink;
+    position: absolute;
+    border-radius: 50%;
+    top: 27vw;
+    left: 48vw;
+}
+
+.flower1 {
+       width: 2vw;
+    height: 2vw;
+    background: pink;
+    position: absolute;
+    border-radius: 50%;
+    top: 27vw;
+    left: 50vw;
+}
+
+.flower2 {
+         width: 2vw;
+    height: 2vw;
+    background: pink;
+    position: absolute;
+    border-radius: 50%;
+    top: 28vw;
+    left: 51.5vw;
+}
+
+.cathead {
+           width: 5vw;
+    height: 5vw;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 31vw;
+    left: 43vw;
+
+
+}
+
+.catbody {
+      width: 5vw;
+      height: 6vw;
+      background: white;
+      border-radius: 100vw / 50vw;
+      position: absolute;
+      top: 35vw;
+    left: 43.3vw;
+
+    }
+   
+   .ear {
+        width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: .5vw solid transparent;
+    border-bottom: 2vw solid red;
+    position: absolute;
+    top: 30.1vw;
+    left: 45.3vw;
+    transform: skew(13deg, 20deg);
+    }
+
+
+    .ear2 {
+      width: 0;
+      height: 0;
+      border:left 2vw solid transparent;
+      border-right: .5vw solid transparent;
+      border-bottom: 2vw black;
+      position: absolute;
+      top: 30.1vw;
+      left:45.3vw;
+      transform: skew(13deg, 20deg);
+    }
+
+    .eye {
+     width: .6vw;
+    height: .6vw;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 32.6vw;
+    left: 44.5vw;
+
+
+}
+  .book-back {
+
+       width: 8vw;
+    height: 12vw;
+    background: #D4D5D4;
+    margin: 2.5vw auto;
+    position: absolute;
+    top: 22vw;
+    left: 39vw;
+}
+  

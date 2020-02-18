@@ -1,0 +1,38 @@
+body {
+background: linear-gradient(-45deg, #FFC0CB, #FFF2CC, #D9D2E9, #D9EAD3);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+#color1 {
+color: #FFCBCC}
+
+#peeman {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  width: 350px;
+  height: 350px;
+}
+
+.bodycopy {
+  width: 70%;
+  padding: 10px 0px;
+  margin: auto;
+}
+
+.section {
+	columns: 100px 3px;
+}

@@ -33,6 +33,57 @@ color: #FFCBCC}
   margin: auto;
 }
 
-.section {
-	columns: 100px 3px;
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+
+@font-face {
+  font-family: "GrotesqueMT-Light";
+
+  src: url("net-anthology-layouts/fonts/grotesque.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/grotesque.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "GrotesqueMT-Light";
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+
+
+@media (min-width: 500px) {
+  body {
+    background-color: pink;
+  }
+}
+
+
+@media print { 
+  /* All your print styles go here */
+  .header, 
+  .footer, 
+  .nav { 
+    display: none !important; 
+  }
 }

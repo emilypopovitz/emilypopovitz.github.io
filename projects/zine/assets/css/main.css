@@ -6,10 +6,10 @@ body {
 .grid-item {
   background-color: hotpink;
   
-  padding: 40px;
-  font-size: 14px;
-  height:116px;
-  width:270px;
+  padding: 4%;
+    font-size: 80%;
+    height: 16%;
+    width: 20%;
     font-family: sans-serif;
     color: #ffffff;
   text-align: center;
@@ -34,20 +34,19 @@ body{
 }
 
 .grid-item1 {
-  background-color: #a64ca6;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:210px;
-  width:220px;
+background-color: #a64ca6;
+    padding: 4%;
+    font-size: 65%;
+    height: 15%;
+    width: 92%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin: 620px;
-  position: relative;
-  display: block;
-  flex-wrap: wrap;
-      top: -240px;
+    text-align: center;
+    margin: 250%;
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    top: -14%;
 }
 
 
@@ -60,20 +59,21 @@ body{
 }
 
 .grid-item2 {
-  background-color: #bf7fbf;
+
   
-  padding: 40px;
-  font-size: 12px;
-  height:160px;
-  width:220px;
+    background-color: #bf7fbf;
+    padding: 4%;
+    font-size: 68%;
+    height: 11%;
+    width: 106%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin: 90px;
-  position: relative;
-  display: block;
-    top: 260px;
-    left: -300px;
+    text-align: center;
+    margin: 50%;
+    position: relative;
+    display: block;
+    top: 16%;
+    left: -130%;
 }
 
 
@@ -87,19 +87,18 @@ body{
 
 .grid-item3 {
   background-color: #d684ff;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:120px;
-  width:250px;
+    padding: 4%;
+    font-size: 66%;
+    height: 8%;
+    width: 92%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin:-40px;
-  position: relative;
-  display: block;
-  top: 180px;
-    left: 190px;
+    text-align: center;
+    margin: -5%;
+    position: relative;
+    display: block;
+    top: 8%;
+    left: 78%;
 }
 
 
@@ -113,18 +112,17 @@ body{
 }
 
 .grid-item4 {
-  background-color: #cc66ff;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:180px;
-  width:250px;
+     background-color: #cc66ff;
+    padding: 4%;
+    font-size: 69%;
+    height: 26%;
+    width: 95%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  position: relative;
-  display: block;
-  left:180px;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 97%;
 }
 
 
@@ -139,19 +137,18 @@ body{
 
 .grid-item5 {
   background-color: #8e47b2;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:240px;
-  width:250px;
+    padding: 4%;
+    font-size: 66%;
+    height: 34%;
+    width: 95%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin:90px;
-  position: relative;
-  display: block;
-      top: -630px;
-          left: 120px;
+    text-align: center;
+    margin: 45%;
+    position: relative;
+    display: block;
+    top: -92%;
+    left: 48%;
 }
 
 .img {
@@ -171,20 +168,20 @@ body{
 }
 
 .grid-item6 {
-  background-color: #512866;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:240px;
-  width:250px;
+ background-color: #512866;
+    padding: 24%;
+    font-size: 74%;
+    height: 28%;
+    width: 102%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin:200px;
-  position: relative;
-  display: block;
-       top: -270px;
-    left: 220px;
+    text-align: center;
+    margin: 85%;
+    position: relative;
+    display: block;
+       top: -22%;
+    left: 78%;
+
 }
 
 
@@ -200,20 +197,19 @@ body{
 
 
 .grid-item7 {
-  background-color: #e0a3ff;
-  
-  padding: 40px;
-  font-size: 12px;
-  height:200px;
-  width:250px;
+     background-color: #e0a3ff;
+    padding: 4%;
+    font-size: 66%;
+    height: 25%;
+    width: 92%;
     font-family: sans-serif;
     color: #ffffff;
-  text-align: center;
-  margin:50px;
-  position: relative;
-display: block;
-     top: -830px;
-    left: -250px;
+    text-align: center;
+    margin: -5%;
+    position: relative;
+    display: block;
+    top: -82%;
+    left: -42%;
   
 }
 
@@ -228,19 +224,18 @@ body{
 }
 
 .grid-item8 {
-  background-color: #000;
-  
-  padding: 40px;
- 
-  height:160px;
-  width:220px;
-  text-align: center;
-  margin: 90px;
-  position: relative;
-  display: block;
- top: -230px;
-    left: -838px;
+    background-color: #000;
+    padding: 4%;
+    height: 38%;
+    width: 92%;
+    text-align: center;
+    margin: -5%;
+    position: relative;
+    display: block;
+    top: -182%;
+    left: 238%;
 }
+
 
 
 body{
@@ -252,32 +247,28 @@ body{
 }
 
 .grid-item9 {
-  background-color: #000;
-  
-  padding: 40px;
- 
-  height:160px;
-  width:220px;
-  text-align: center;
-  margin: 90px;
-  position: relative;
-    top: -1940px;
-    left: 660px;
+    background-color: #000;
+    padding: 4%;
+    height: 38%;
+    width: 92%;
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    top: -422%;
+    left: 282%;
 }
 
 .grid-item10 {
-  background-color: #000;
-  
-  padding: 40px;
- 
-  height:160px;
-  width:220px;
-  text-align: center;
-  margin: 90px;
-  position: relative;
-  display: block;
-     top: -1760px;
-    left: -430px;
+ background-color: #000;
+    padding: 4%;
+    height: 39%;
+    width: 92%;
+    text-align: center;
+    margin: -5%;
+    position: relative;
+    display: block;
+    top: -382%;
+    left: -163%;
 }
 
 body {
@@ -290,31 +281,29 @@ body {
 
 .grid-item11 {
   background-color: #000;
-  
-  padding: 40px;
- 
-  height:160px;
-  width:220px;
-  text-align: center;
-  margin: 90px;
-  position: relative;
-  display: block;
-  top: -1290px;
-    left: -910px;
+    padding: 14%;
+    height: 38%;
+    width: 92%;
+    text-align: center;
+    margin: 45%;
+    position: relative;
+    display: block;
+    top: -290%;
+    left: -342%;
 }
 
 
 .grid-item12 {
-      background-color: #000;
-    padding: 40px;
-    height: 30px;
-    width: 220px;
+    background-color: #000;
+    padding: 14%;
+    height: 8%;
+    width: 92%;
     text-align: center;
-    margin: 90px;
+    margin: 15%;
     position: relative;
     display: block;
-        top: -1110px;
-    left: -290px;
+    top: -252%;
+    left: -90%;
 }
 
 body {
@@ -326,30 +315,21 @@ body {
 }
 
 .grid-item13 {
-    background-color: #000;
-    padding: 40px;
-    height: 240px;
-    width: 250px;
+       background-color: #000;
+    padding: 10%;
+    height: 50%;
+    width: 100%;
     text-align: center;
-    margin: 90px;
+    margin: 40%;
     position: relative;
     display: block;
-    top: -2840px;
-    left: 370px;
-
-@media print { 
-
-  h2 { 
-    page-break-before: always;
-  }
-  h3, h4 {
-    page-break-after: avoid;
-  }
-  pre, blockquote {
-    page-break-inside: avoid;
-  }
-}{ 
-    display: none !important; 
-  }
+    top: -590%;
+    left: 200%;
 }
+
+@media print {
+
+
+}
+
 

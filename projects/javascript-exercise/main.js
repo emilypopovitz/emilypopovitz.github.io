@@ -88,6 +88,10 @@ else if (day==3) {
 	console.log("It's Saturday");
 }
 
+var array = [ 'resturant' ]
+var firstone = 'Shake Shack';
+myArray = [5, 6, 7, 8];
+
 
 
 

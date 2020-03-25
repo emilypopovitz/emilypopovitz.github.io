@@ -45,23 +45,37 @@ h1 {
   color: #ff5d9e
 }
 
+@font-face {
+    font-family: 'Joy For Fun';
+    src:url(fonts/JoyForFun.woff);
+    font-style:normal;
+
+}
+
+.zebra {
+    background-image: url("../imgs/zebra.pdf");
+    background-color: #cccccc;
+    background-size: cover;
+    
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 
 .grid-item {
-  
-  
-        background-color: white;
-    padding: 4%;
-    font-size: 200%;
     height: 60%;
-    width: 70%;
-    font-family: Joy For Fun;
+    width: 100%;
     color: black;
     text-align: center;
-    position: absolute;
-    display: block;
-    top: 1210px;
-    left: 170px;
+    display: flex;
+    align-items: center;
+    font-family: Joy For Fun;
+ /*this isn't linked correctly, please review our notes on linking custom typefaces*/
 }
 
 img {

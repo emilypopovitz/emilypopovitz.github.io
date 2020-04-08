@@ -1,9 +1,113 @@
-img {
-	width: 100%;
-	height:100%;
+h1 {
+  text-align: center;
+  font-family:Helvetica;
+  font-size: 50px;
+  color: darkblue
 }
 
-.container {
-	width:100vw;
-	height:100vw;
+
+body{
+    background-image: url('projects/survey/assets/imgs/forest.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
+
+
+.title {
+  position: absolute;
+  top: 9px;
+  left: 500px;
+  font-family: Helvetica;
+  color: navy;
+}
+
+p {
+	font-family: helvetica;
+	color:darkblue;
+}
+
+
+.survey img {
+	display:block;
+    margin: 0 auto;
+    width: 150px;
+    height: 98px;
+    top: 710px;
+    left: 480px;
+    position: absolute;
+}
+
+.time-capsule img {
+        margin: auto 100px;
+    float: left;
+    width: 150px;
+    height: 98px;
+    top: 690px;
+    left: -30px;
+    position: absolute;
+}
+
+.Geometric-Abstractions img {
+    margin: auto 100px;
+    float: left;
+    width: 220px;
+    height: 158px;
+   top: 22px;
+   left: 900px;
+    position: absolute;
+}
+
+.Coding-from-life img {
+    margin: auto 100px;
+    float: left;
+    width: 120px;
+    height: 158px;
+    top: 610px;
+    left: 890px;
+    position: absolute;
+}
+
+.Archive img {
+      margin: auto 100px;
+    float: left;
+    width: 100px;
+    height: 88px;
+    top: 140px;
+    left: 140px;
+    position: absolute;
+}
+
+.Net-art img {
+    margin: auto 100px;
+    float: left;
+    width: 100px;
+    height: 118px;
+    top: 520px;
+    left: 1070px;
+    position: absolute;
+}
+
+.heather img {
+    margin: auto 100px;
+    float: left;
+    width: 200px;
+    height: 208px;
+    top: 490px;
+    left: 540px;
+    position: absolute;
+}
+
+.zine-present img {
+  margin: auto 100px;
+    float: left;
+    width: 130px;
+    height: 118px;
+    top: 120px;
+    left: -60px;
+    position: absolute;
+}
+
+
+

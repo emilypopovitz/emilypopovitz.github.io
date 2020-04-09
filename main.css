@@ -109,5 +109,15 @@ p {
     position: absolute;
 }
 
+.poster-series img {
+  margin: auto 100px;
+    float: left;
+    width: 130px;
+    height: 118px;
+   top: 680px;
+    left: 710px;
+    position: absolute;
+}
+
 
 

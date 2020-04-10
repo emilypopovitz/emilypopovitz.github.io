@@ -24,33 +24,42 @@ body{
 }
 
 p {
-	font-family: helvetica;
-	color:darkblue;
+	    font-family: helvetica;
+    color: darkblue;
+    font-size: 50px;
+    margin: auto 5%;
+
 }
+
+ p:hover {
+    background: green;
+  }
+
 
 
 .survey img {
-	display:block;
-    margin: 0 auto;
-    width: 150px;
-    height: 98px;
-    top: 710px;
-    left: 480px;
-    position: absolute;
+        position: relative;
+    display: block;
+    margin:auto;
+    width: 10%;
+    height: 40%;
+    top: 70%;
+    left: -10%;
+    
 }
 
 .time-capsule img {
-        margin: auto 100px;
+      margin: 15%;
     float: left;
-    width: 150px;
-    height: 98px;
-    top: 690px;
-    left: -30px;
-    position: absolute;
+    width: 10%;
+    height: 15%;
+    top: 84%;
+    left: 0%;
+    position: relative;
 }
 
 .Geometric-Abstractions img {
-    margin: auto 100px;
+    margin: auto;
     float: left;
     width: 220px;
     height: 158px;
@@ -60,12 +69,12 @@ p {
 }
 
 .Coding-from-life img {
-    margin: auto 100px;
+       margin: auto 5%;
     float: left;
-    width: 120px;
-    height: 158px;
-    top: 610px;
-    left: 890px;
+    width: 12%;
+    height: 20%;
+    top: 77%;
+    left: 60%;
     position: absolute;
 }
 

@@ -1,0 +1,142 @@
+h1 {
+  text-align: center;
+  font-family:Helvetica;
+  font-size: 50px;
+  color: darkblue
+}
+
+
+body{
+    background-image: url('projects/survey/assets/imgs/forest.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+.title {
+  position: absolute;
+  top: 9px;
+  left: 500px;
+  font-family: Helvetica;
+  color: navy;
+}
+
+p {
+	    font-family: helvetica;
+    color: darkblue;
+    font-size: 50px;
+    margin: auto 5%;
+
+}
+
+ p:hover {
+    background: green;
+  }
+
+
+
+.survey img {
+        position: relative;
+    display: block;
+    margin:auto;
+    width: 10%;
+    height: 40%;
+    top: 70%;
+    left: -10%;
+    
+}
+
+.time-capsule img {
+      margin: 15%;
+    float: left;
+    width: 10%;
+    height: 15%;
+    top: 84%;
+    left: 0%;
+    position: relative;
+}
+
+.Geometric-Abstractions img {
+    margin: auto;
+    float: left;
+    width: 220px;
+    height: 158px;
+   top: 22px;
+   left: 900px;
+    position: absolute;
+}
+
+.Coding-from-life img {
+       margin: auto 5%;
+    float: left;
+    width: 12%;
+    height: 20%;
+    top: 77%;
+    left: 60%;
+    position: absolute;
+}
+
+.Archive img {
+      margin: auto 100px;
+    float: left;
+    width: 100px;
+    height: 88px;
+    top: 140px;
+    left: 140px;
+    position: absolute;
+}
+
+.Net-art img {
+    margin: auto 100px;
+    float: left;
+    width: 100px;
+    height: 118px;
+    top: 520px;
+    left: 1070px;
+    position: absolute;
+}
+
+.heather img {
+    margin: auto 100px;
+    float: left;
+    width: 200px;
+    height: 208px;
+    top: 490px;
+    left: 540px;
+    position: absolute;
+}
+
+.zine-present img {
+  margin: auto 100px;
+    float: left;
+    width: 130px;
+    height: 118px;
+    top: 120px;
+    left: -60px;
+    position: absolute;
+}
+
+.poster-series img {
+  margin: auto 100px;
+    float: left;
+    width: 130px;
+    height: 118px;
+   top: 680px;
+    left: 940px;
+    position: absolute;
+}
+
+.isolation-diary img {
+     margin: auto 100px;
+    float: left;
+    width: 140px;
+    height: 138px;
+    top: 680px;
+    left: 330px;
+    position: absolute;
+}
+
+
+

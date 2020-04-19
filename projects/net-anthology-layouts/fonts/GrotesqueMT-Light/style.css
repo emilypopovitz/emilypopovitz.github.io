@@ -1,0 +1,9 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "GrotesqueMT-Light";
+
+  src: url("./fonts/grotesque.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/grotesque.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

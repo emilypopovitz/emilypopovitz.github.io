@@ -1,0 +1,55 @@
+body{
+	background-color: pink;
+}
+
+@font-face {
+  font-family: "Omnes";
+
+  src: url("net-anthology-layouts/fonts/Omnes.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Omnes.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.body-text {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Omnes";
+}
+
+
+@font-face {
+  font-family: "GrotesqueMT-Light";
+
+  src: url("net-anthology-layouts/fonts/grotesque.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/grotesque.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.title {
+  font-size: 60px;
+  line-height: 1.2;
+  font-family: "GrotesqueMT-Light";
+}
+
+
+@font-face {
+  font-family: "GitanLatn-Me";
+
+  src: url("net-anthology-layouts/fonts/GitanLatinMediumRegularTheFontsMastercom.woff") format("woff"), /* Modern Browsers */
+    url("net-anthology-layouts/fonts/GitanLatinMediumRegularTheFontsMastercom.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.small-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1px; 
+  font-family: "GitanLatn-Me";
+}

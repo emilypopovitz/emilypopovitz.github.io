@@ -1,0 +1,53 @@
+
+
+.painting {
+  width:300px;
+  height:400px;
+  background: #C3B7A4;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #f9afaf;
+  border-radius: 50%;
+  display: inline-block;
+  left: 40%;
+  top: 20%;
+  position: fixed;
+  z-index: 10;
+}
+
+.dot1 {
+  height: 50px;
+  width: 50px;
+  background-color: #f9afaf;
+  border-radius: 50%;
+  display: inline-block;
+  position: sticky;
+  top: 100%;
+  left: 300%;
+}
+
+.painting1 {
+  width:150px;
+  height:100px;
+  background: #C3B7A4;
+  position: static;
+  left: 30%;
+  top: 10%;
+}
+
+.dot2 {
+  height: 20px;
+  width: 20px;
+  background-color:#d29d9d;
+  border-radius: 50%;
+  display: inline-block;
+  position: sticky;
+  top: 150%;
+  left: 200%;
+}

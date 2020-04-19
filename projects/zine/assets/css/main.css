@@ -1,0 +1,192 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  animation: 1.5s ease 0s infinite pulse;
+}
+
+.box {
+  height: 90%;
+  max-height: 400px;
+}
+
+#heart {
+  height: 100%;
+  margin-left: auto;
+  animation: 1.5s ease 0s infinite beat;
+}
+
+@keyframes beat {
+  0%, 50%, 100% { transform: scale(1, 1); }
+  30%, 80% { transform: scale(0.92, 0.95); }
+}
+
+@keyframes pulse {
+  0%, 50%, 100% {  background: #fee; }
+  30%, 80% { background: #fff; }
+}
+
+
+h1 {
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 50px;
+  color: #ff5d9e
+}
+
+
+
+.zebra {
+    background-image: url("../imgs/zebra1.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.grid-item {
+    height: 60%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+ /*this isn't linked correctly, please review our notes on linking custom typefaces*/
+}
+
+img {
+   height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.hellokitty {
+    background-image: url("../imgs/hellokitty.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.butterfly {
+    background-image: url("../imgs/butterfly.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fire {
+    background-image: url("../imgs/fire.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cheetah{
+    background-image: url("../imgs/cheetah.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.castle {
+    background-image: url("../imgs/castle.gif");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.bandana {
+    background-image: url("../imgs/bandana.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.checkerboard {
+    background-image: url("../imgs/checkerboard.svg");
+    background-color: #cccccc;
+    background-size: cover;
+
+}
+
+.white {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

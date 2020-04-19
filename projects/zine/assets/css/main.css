@@ -1,3 +1,27 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.glow {
+  font-size: 80px;
+  color: red;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -17,30 +41,6 @@ html, body {
 .box {
   height: 90%;
   max-height: 400px;
-}
-
-#heart {
-  height: 100%;
-  margin-left: auto;
-  animation: 1.5s ease 0s infinite beat;
-}
-
-@keyframes beat {
-  0%, 50%, 100% { transform: scale(1, 1); }
-  30%, 80% { transform: scale(0.92, 0.95); }
-}
-
-@keyframes pulse {
-  0%, 50%, 100% {  background: #fee; }
-  30%, 80% { background: #fff; }
-}
-
-
-h1 {
-  text-align: center;
-  font-family:sans-serif;
-  font-size: 50px;
-  color: #ff5d9e
 }
 
 

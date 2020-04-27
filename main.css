@@ -89,12 +89,12 @@ p {
 }
 
 .Net-art img {
-    margin: auto 100px;
+     margin: auto 100px;
     float: left;
-    width: 100px;
+    width: 150px;
     height: 118px;
     top: 520px;
-    left: 1070px;
+    left: 900px;
     position: absolute;
 }
 
@@ -123,8 +123,8 @@ p {
     float: left;
     width: 130px;
     height: 118px;
-   top: 680px;
-    left: 940px;
+      top: 710px;
+    left: 580px;
     position: absolute;
 }
 
@@ -137,6 +137,17 @@ p {
     left: 330px;
     position: absolute;
 }
+
+.event-poster img {
+      margin: auto;
+    float: left;
+    height: 150px;
+    width: 140px;
+    top: 370px;
+    left: 940px;
+    position: absolute;
+}
+
 
 
 
